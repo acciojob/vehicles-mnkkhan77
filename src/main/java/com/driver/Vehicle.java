@@ -20,6 +20,9 @@ public class Vehicle {
         this.name = name;
         this.currentSpeed = currentSpeed;
     }
+    public Vehicle(String name) {
+        this.name = name;
+    }
 
     public String getName() {
         return name;
